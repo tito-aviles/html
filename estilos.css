@@ -1,0 +1,73 @@
+/* estilos body */
+body {
+    background-image: url("./imagenes/fondo1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1 1 auto;
+}
+
+h1 {
+    font-size: 90px;
+    color: bisque;
+}
+
+h3 {
+    color: brown;
+    font-size: 40px;
+}
+
+header img {
+    width: 300px;
+    height: 300px;
+}
+
+header p {
+    font-size: 25px;
+    color: bisque;
+}
+
+.seccion p {
+    color: black;
+}
+
+.formulario {
+    max-width: 20%;
+}
+
+label {
+    color: black;
+}
+
+ul li {
+    font-size: 30px;
+}
+
+.reserva {
+    font-size: 20px;
+}
+
+.datos {
+    max-width: 95%;
+}
+
+.redes-sociales img {
+    width: 30px;
+    position: relative;
+    bottom: 40px;
+    right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .cabecera {
+        display: flex;
+    }
+
+    .cabecera img {
+        display: none;
+    }
+
+    h1 {
+        font-size: 3.5em;
+    }
+}
